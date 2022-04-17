@@ -1,0 +1,40 @@
+@import "mixins";
+@import "fonts";
+@import "icons";
+
+
+$fontFamily: "Gilroy";
+$fontSize: 16;
+
+$minWidth: 320px;
+$maxWidth: 1440;
+$maxWidthContainer: 1270;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+
+$mainColor: #3a3a3a;
+$orangeColor: #e89f71;
+$greyColor: #898989;
+$darkGreyColor: #616161;
+
+
+@import "null";
+body{
+    background: #f9f1e7;
+    color: $mainColor;
+}
+
+.wrapper{
+
+}
+
+.container{
+    max-width: $maxWidthContainer + px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+@import "header";
+@import "ui";

@@ -1,0 +1,52 @@
+    [class^="icon-"]::before, [class*=" icon-"]::before {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+    
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-arrow:before {
+        content: "\e900";
+    }
+    .icon-group1:before {
+        content: "\e901";
+    }
+    .icon-group2:before {
+        content: "\e902";
+    }
+    .icon-group3:before {
+        content: "\e903";
+    }
+    .icon-group4:before {
+        content: "\e904";
+    }
+    .icon-heart:before {
+        content: "\e905";
+    }
+    .icon-next:before {
+        content: "\e906";
+    }
+    .icon-phone:before {
+        content: "\e907";
+    }
+    .icon-plant:before {
+        content: "\e908";
+    }
+    .icon-search:before {
+        content: "\e909";
+    }
+    .icon-location:before {
+        content: "\e90a";
+    }
+    .icon-shopping-cart:before {
+        content: "\e90b";
+    }
+    
